@@ -3,4 +3,6 @@
   padding: 28px 48px 24px;
   font-family: 'Inter', sans-serif;
   color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
