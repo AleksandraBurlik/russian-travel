@@ -3,3 +3,26 @@
   height: 740px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1280px) {
+  .cover__background {
+    width: -webkit-fill-available;
+    height: 640px;
+    margin-right: -48px;
+    margin-left: -48px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    margin-right: -24px;
+    margin-left: -24px;
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    height: 200px;
+  }
+}

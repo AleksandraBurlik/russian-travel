@@ -8,3 +8,9 @@
   right: 50%;
   transform: translate(50%,-50%);
 }
+
+@media screen and (max-width: 768px) {
+  .cover__text {
+    width: 100%;
+  }
+}

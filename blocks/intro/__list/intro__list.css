@@ -7,3 +7,15 @@
   font-size: 12px;
   line-height: 1.5;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__list {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__list {
+    width: 100%;
+  }
+}
