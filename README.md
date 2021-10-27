@@ -7,3 +7,4 @@
 - CSS
 - БЭМ
 
+[Ссылка на проект](https://aleksandraburlik.github.io/russian-travel/)
