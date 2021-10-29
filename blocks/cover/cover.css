@@ -1,10 +1,34 @@
 .cover {
+  margin: auto;
   margin-top: 92px;
   position: relative;
+  height: 740px;
+  background-image: url('../../images/cover-trains.jpg');
+  background-size: cover;
+  background-position: center;
+  max-width: 1184px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279px) {
+  .cover {
+    height: 640px;
+    margin-right: -48px;
+    margin-left: -48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    margin-top: 90px;
+    height: 480px;
+    margin-right: -24px;
+    margin-left: -24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .cover {
     margin-top: 66px;
+    height: 200px;
   }
 }
